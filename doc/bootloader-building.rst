@@ -298,6 +298,8 @@ Build using Visual Studio C++
 
        … one-line-install as written on the chocolatey homepage
        choco install -y python vcbuildtools
+       # as of June 2021 on Windows 10, visualstudio2019buildtools didn't work:
+       choco install -y python visualstudio2017buildtools
 
 * Useful Links:
 
